@@ -1,0 +1,8 @@
+
+
+.grid-layout {
+    display: grid;
+    background-color: brown;
+    color: white;
+    grid-gap: 6px;
+}
