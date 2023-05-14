@@ -1,8 +1,81 @@
-
+body {
+    background-color: black;
+    color: black;
+    font-weight: 1000;
+}
 
 .grid-layout {
     display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: brown;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: brown;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+main {
+    background-color: brown;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+footer {
+    background-color: brown;
+    border: 2px solid white;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu-buttons {
+    background-color: brown;
+    color: black;
+    text-align: center; /* Fixed property value */
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0 0 0 3px black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 120px;
+    font-weight: 1000;
+}
+
+.menu-buttons:hover {
     background-color: brown;
     color: white;
-    grid-gap: 6px;
+    text-align: center; /* Fixed property value */
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 0 0 3px white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 120px;
+    font-weight: 1000;
 }
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#p-header {
+    margin-top: 0px;
+}
+
+    /* border: 10px solid white; */
