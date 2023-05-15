@@ -26,20 +26,31 @@
         <button class="menu-buttons">Om KageKongen</button>
       </nav>
 
-      <main>
-        <h1>Kyllingekage</h1>
-          <h2>Ingrediensliste:</h2>
-          <ul>
-          <li>1 kylling</li>
-          <li>4 æg</li>
-          <li>300g sukker</li>
-          <li>2 dl mælk</li>
-          <li>100g smør</li>
-          <li>250g hvedemel</li>
-          <li>3 tsk bagepulver</li>
-          <li>1 tsk vaniljesukker</li>
-        </ul>
-        
+      <main class="main">
+        <h1 id="kageopskrift">Kyllingekage</h1>
+        <p id="tilberedningstid">Tilberedningstid: 1½ time</p>
+
+        <article class="flex-container">
+          <section class="left-right-margin">
+            <h2 id="ingrediensliste">Ingrediensliste:</h2>
+            <ul>
+              <li>1 kylling</li>
+              <li>4 æg</li>
+              <li>300g sukker</li>
+              <li>2 dl mælk</li>
+              <li>100g smør</li>
+              <li>250g hvedemel</li>
+              <li>3 tsk bagepulver</li>
+              <li>1 tsk vaniljesukker</li>
+            </ul>
+          </section>
+          <section>
+            <img src="billeder/kylligekage1.jpg" alt="" id="kylligekage-billeder">
+            <img src="billeder/kylligekage2.jpg" alt="" id="kylligekage-billeder">
+          </section>
+        </article>
+
+        <article class="left-right-margin">
           <h2>Fremgangsmåde:</h2>
           <ul>
           <li>Start med at koge kyllingen i 45 minutter og lad den køle af.</li>
@@ -77,7 +88,7 @@
           </li>
         </ul>
         <p>
-          <h2>Eventuel topping:</h2><br />
+          <h2 id="eventuel-topping">Eventuel topping:</h2>
           Vi foreslår at du kan toppe kagen af med flødeskum og pynte den med
           for eksempel jordbær og kiwi, eller hvad du selv har lyst til.
         </p>
@@ -87,9 +98,10 @@
           sikre på, at den dejlige kyllingekage vil vække stor opsigt.
         </p>
         <p>God appetit og velbekomme!</p>
+      </article>
       </main>
 
-      <footer><h2>Created by Kenneth Bransholn Schou</h2></footer>
+      <footer><article id="created-by">Created by Kenneth Bransholn Schou</article></footer>
     </div>
   </body>
 </html>
